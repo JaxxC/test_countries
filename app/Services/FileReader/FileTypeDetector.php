@@ -4,9 +4,7 @@ namespace  App\Services\FileReader;
 
 use App\Services\FileReader\Exceptions\TypeNotSupportedException;
 use App\Services\FileReader\Readers\{CsvReader, JsonReader, XmlReader};
-use App\Services\FileReader\Writers\CsvWriter;
-use App\Services\FileReader\Writers\JsonWriter;
-use App\Services\FileReader\Writers\XmlWriter;
+use App\Services\FileReader\Writers\{CsvWriter, JsonWriter, XmlWriter};
 use Illuminate\Http\UploadedFile;
 
 class FileTypeDetector

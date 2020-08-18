@@ -30,7 +30,6 @@ class FileController extends Controller
 
     /**
      * Download file
-     *
      */
     public function download(DownloadFileRequest $request)
     {
